@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Button Alert</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <button onclick="multiplicationCalculator()">Multiplication Calculator</button>
+  <script>
+    function multiplicationCalculator() {
+      var number1 = prompt("Enter the first number:");
+      var number2 = prompt("Enter the second number:");
+      var result = number1 * number2;
+      alert("The multiplication result is: " + result);
+    }
+  </script>
+    <button onclick="calculateSquare()">Calculate Square</button>
+    <script>
+      function calculateSquare() {
+        var number = prompt("Enter a number:");
+        var squaredNumber = number * number;
+        alert("The squared number is: " + squaredNumber);
+      }
+    </script>
+</body>
+</html>
